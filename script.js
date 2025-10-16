@@ -1,5 +1,5 @@
 // 1단계에서 발급받은 API 키를 여기에 붙여넣으세요!
-const API_KEY = ‘AIzaSyBVBm3Kpjb_i-T15lq63ViaB-qd8RDnL7s’;
+const API_KEY = 'AIzaSyBVBm3Kpjb_i-T15lq63ViaB-qd8RDnL7s';
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${API_KEY}`;
 
 const chatMessages = document.getElementById('chat-messages');
